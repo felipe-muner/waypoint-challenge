@@ -13,9 +13,18 @@ npm install
 npm run build
 npm start              # stdio MCP server
 
-# Or run with the MCP inspector:
+# Or run with the MCP inspector (recommended for evaluation):
 npm run inspect
 ```
+
+**60-second tour in the Inspector.** Click **Connect**, then **Tools** tab → **List Tools**, and run these in order:
+
+1. `scaffold_text` with `paragraphNumber: 6` — Grade-3 rewrite of a Grade-7 paragraph + vocab pre-teach
+2. `differentiate_lesson` with `focus: "independent_practice"` — modified short-response with built-in organizer + alternative assessment
+3. `build_graphic_organizer` with no args — printable central-idea organizer
+4. `differentiate_lesson` with no args — full lesson plan (all 4 lesson moments + scaffolded DRQs + UDL alignment)
+
+Then **Resources** tab → **List Resources** to see the chunked IEP and lesson sections the tools read from.
 
 ### Use it from Claude Desktop
 
