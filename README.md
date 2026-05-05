@@ -4,11 +4,7 @@ An MCP server that gives Claude the context to turn a 7th-grade ELA lesson plan 
 
 The included sample data is **CommonLit 360 Unit 1 Lesson 1 — "What is 'community'?"** (Toby Lowe, RI.7.2 central idea) and **Jasmine Bailey's IEP** (7th grade, Health Impairment, ELA at Grade 3 reading level vs. a Grade 7 text).
 
-### Demo (~2 min, silent)
-
-[![Demo walkthrough — click to play](https://cdn.loom.com/sessions/thumbnails/a904a3aec3f44f16afc698a8c340a51f-with-play.gif)](https://www.loom.com/share/a904a3aec3f44f16afc698a8c340a51f)
-
-Walkthrough of all four tools in the MCP Inspector.
+▶️ **[Watch the demo (Loom, ~2 min)](https://www.loom.com/share/a904a3aec3f44f16afc698a8c340a51f)** — silent walkthrough of all four tools in the MCP Inspector.
 
 ---
 
