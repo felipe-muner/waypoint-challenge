@@ -1,0 +1,154 @@
+{
+  "studentId": "jasmine-bailey",
+  "profile": {
+    "name": "Jasmine Regina Bailey",
+    "grade": "7",
+    "age": 12,
+    "disability": "Health Impairment",
+    "primaryLanguage": "English",
+    "englishLearner": false,
+    "assistiveTechnology": false,
+    "iepDates": { "from": "2025-12-09", "to": "2026-12-08" },
+    "caseManager": "Marisol Gutierrez-Stone",
+    "placement": "Full Inclusion (80%+ in general ed)"
+  },
+  "studentVision": {
+    "thisYear": {
+      "math": "Get faster at multi-step problems.",
+      "ela": "Read books that aren't too easy and understand them.",
+      "science": "Do more lab experiments and write about what I see.",
+      "history": "Learn how to take better notes."
+    },
+    "longTerm": [
+      "Get 3's in all my classes.",
+      "Ask for help when I'm stuck instead of giving up."
+    ]
+  },
+  "presentLevels": {
+    "ela": {
+      "currentGrade": "1.8 (standards-based; 3 = mastery)",
+      "readingLevel": "Grade 3 (iReady Fall 2025)",
+      "subscores": {
+        "vocabulary": "Grade 3",
+        "literatureComprehension": "Grade 3",
+        "informationalTextComprehension": "Grade 2"
+      },
+      "canDo": [
+        "Decodes most grade-level words with adequate fluency",
+        "Participates in ELA when supported; open to feedback in 1:1",
+        "Beginning to use graphic organizers and checklists effectively",
+        "With 1:1 adult support, can participate in writing at grade level"
+      ],
+      "struggles": [
+        "Literal and inferential comprehension questions (verbal or written)",
+        "Independent comprehension homework: 0–50% accuracy",
+        "Independent writing: ~50% accuracy on grade-level rubrics",
+        "Low reading and writing stamina; needs frequent reminders to track text, annotate, reread",
+        "Chooses whole-group over offered small-group instruction 80% of the time despite struggling there"
+      ],
+      "behavioralPattern": "Frustration on grade-level literacy → quietly disengages (head down, repeated bathroom requests). Shuts down rather than asking for help."
+    },
+    "math": {
+      "currentLevel": "iReady Grade 4",
+      "canDo": [
+        "Multi-digit operations and integer rules improving",
+        "Participates in class when calm and focused"
+      ],
+      "struggles": ["Multi-step word problems", "Combining multiple operations to simplify"]
+    },
+    "behavioralSocialEmotional": {
+      "summary": "Adjusted well to Riverstone Prep. Attends weekly counseling. Prefers small-group/quiet activities. Identifies coping strategies in the counseling room but does not consistently apply them in the classroom.",
+      "vulnerableToBullying": true,
+      "pattern": "Academic frustration → withdrawal/shutdown → time outside the classroom checking in with adults → inconsistent classroom time."
+    }
+  },
+  "strengthsAndInterests": [
+    "Warm, gets along with peers",
+    "Likes to participate in ELA",
+    "Loves to help others; enjoys class jobs",
+    "Motivated by specific positive praise",
+    "Enjoys talking with peers (uses peer interaction as motivation)",
+    "Creative: drawing, dance",
+    "Open to feedback in 1:1 check-ins"
+  ],
+  "accommodations": {
+    "presentationOfInstruction": [
+      { "id": "PI-1", "name": "Repeat directions" },
+      { "id": "PI-2", "name": "Reminders to pause, plan, proceed" },
+      { "id": "PI-3", "name": "Copy of teacher's notes" }
+    ],
+    "response": [
+      { "id": "R-1", "name": "Reference sheets, graphic organizers, and checklists" }
+    ],
+    "timingAndScheduling": [
+      { "id": "T-1", "name": "Extra time" },
+      { "id": "T-2", "name": "Frequent breaks" },
+      { "id": "T-3", "name": "1:1 check-ins" },
+      { "id": "T-4", "name": "Scheduled breaks" },
+      { "id": "T-5", "name": "Reminder to remain engaged" }
+    ],
+    "settingAndEnvironment": [
+      { "id": "S-1", "name": "Small group (as needed)" },
+      { "id": "S-2", "name": "Sit in the front of the room" }
+    ],
+    "modifications": [
+      { "id": "M-1", "scope": "Instruction", "name": "Multimodal instruction, inclusion support, small-group pull-outs when appropriate" }
+    ]
+  },
+  "mcasAccommodations": [
+    "DF1 Small Group test administration",
+    "DF3 Frequent brief supervised breaks",
+    "DF4 Separate or alternate test location",
+    "A9 Department-approved graphic organizer, checklist, or supplemental reference sheet"
+  ],
+  "goals": [
+    {
+      "id": "goal-1-counseling",
+      "area": "Counseling / Self-Regulation",
+      "annualGoal": "Use a taught calming strategy (deep breathing, movement break, fidget tool, sensory tool, or grounding exercise) to calm her body and re-engage with tasks in 80% of opportunities.",
+      "benchmarks": [
+        "Recognize and describe physical cues of being triggered (4/5 opps)",
+        "Independently request/initiate a calming strategy when dysregulated (4/5 opps)",
+        "Use a strategy and return to assigned task, reflecting on effectiveness (4/5 opps)"
+      ],
+      "owner": "Social Worker"
+    },
+    {
+      "id": "goal-2-math",
+      "area": "Mathematics",
+      "annualGoal": "Improve problem-solving of multi-step word problems and grade-level questions involving multiple operations from 55% to 75%.",
+      "benchmarks": [
+        "Solve word problems with reasoning 55%→75%",
+        "Solve equations involving integers and order of operations 55%→75%",
+        "Use reference sheets and class notes 55%→75%"
+      ],
+      "owner": "SE Classroom Teacher"
+    },
+    {
+      "id": "goal-3-ela",
+      "area": "ELA",
+      "annualGoal": "Independently answer literal and inferential comprehension questions (or writing prompts) on complex texts at grade-level rubric, from 50% to 75%.",
+      "benchmarks": [
+        "Annotate a given text for the prompt (focus, supporting detail)",
+        "Answer literal comprehension questions (main idea, setting, plot)",
+        "Write a claim that accurately answers each part of the question",
+        "Find ≥3 effective pieces of textual evidence to support the claim",
+        "Write analysis showing how evidence supports the claim"
+      ],
+      "owner": "SE Classroom Teacher"
+    }
+  ],
+  "services": [
+    { "goal": "2,3", "type": "Academic Support consult", "location": "Gen Ed Classroom", "frequency": "Weekly 10 min" },
+    { "goal": "1", "type": "Counseling consult", "location": "Counselor's Office", "frequency": "Monthly 10 min" },
+    { "goal": "2", "type": "Math direct service", "location": "Gen Ed Classroom", "frequency": "Daily 55 min" },
+    { "goal": "3", "type": "ELA direct service", "location": "Gen Ed Classroom", "frequency": "Daily 55 min" },
+    { "goal": "1", "type": "Counseling direct", "location": "Counselor's Office", "frequency": "Weekly 30 min" }
+  ],
+  "teacherNotes": [
+    "Frustration → shutdown is the dominant behavior pattern. Pre-empting frustration is more effective than reacting to it.",
+    "Jasmine declines offered small-group support in ELA 80% of the time despite needing it. Frame supports as default class structure, not a 'pull-out', to avoid stigma.",
+    "Specific positive praise and 1:1 check-ins are highly motivating. Generic praise is not.",
+    "Reading level is ~4 grades below text complexity. Texts must be scaffolded (vocab pre-teach, chunked text, graphic organizer) before independent work."
+  ]
+}
