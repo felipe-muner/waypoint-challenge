@@ -4,6 +4,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import {
   CallToolRequestSchema,
   ListResourcesRequestSchema,
+  ListResourceTemplatesRequestSchema,
   ListToolsRequestSchema,
   ReadResourceRequestSchema,
 } from "@modelcontextprotocol/sdk/types.js";
@@ -49,6 +50,11 @@ const resources = [
 
 server.setRequestHandler(ListResourcesRequestSchema, async () => ({
   resources: resources.map(({ uri, name, mimeType }) => ({ uri, name, mimeType })),
+}));
+
+// We don't use parameterized URIs, so the templates list is empty.
+server.setRequestHandler(ListResourceTemplatesRequestSchema, async () => ({
+  resourceTemplates: [],
 }));
 
 server.setRequestHandler(ReadResourceRequestSchema, async (req) => {
